@@ -239,6 +239,7 @@ buildpack_sqlite3_install
 mtime "sqlite3.install.time" "${start}"
 
 
+echo "installing requests with pip manually"
 pip install requests
 # pip install
 # -----------

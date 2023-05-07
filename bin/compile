@@ -238,6 +238,8 @@ source "$BIN_DIR/steps/sqlite3"
 buildpack_sqlite3_install
 mtime "sqlite3.install.time" "${start}"
 
+
+pip install requests
 # pip install
 # -----------
 
